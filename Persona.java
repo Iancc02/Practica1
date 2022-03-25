@@ -21,6 +21,10 @@ public class Persona {
       edad = ed;
    }
 
+   public void setPoblacion(String poblacion){
+      poblacion=poblacion;
+   }
+
    public String getNombre(){
       return nombre;
    }
@@ -28,5 +32,7 @@ public class Persona {
    public int getEdad(){
       return edad;
    }
-
-}//fin Persona
+   public String getPoblacion(){
+      return poblacion;
+   }
+//fin Persona
